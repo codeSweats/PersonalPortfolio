@@ -34,6 +34,17 @@ nav a {
   font-size: larger;
 }
 
+aside {
+  width: 100%;
+  border: 5px solid;
+  padding: 15px;
+  margin: 10px;
+}
+
+h2 {
+  margin: 5px;
+}
+
 .webApps {
   flex: 4;
   background-color: #fff;
@@ -43,7 +54,7 @@ nav a {
   justify-content: center;
 }
 
-.card {
+.app {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
@@ -51,7 +62,7 @@ nav a {
   flex: 0 0 40%;
 }
 
-.card1 {
+.app1 {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
@@ -59,27 +70,27 @@ nav a {
   flex: 0 0 80%;
 }
 
-.card header {
+.app header {
   padding: 20px;
 }
 
-.card p {
+.app p {
   text-align: center;
 }
 
-.card img {
+.app img {
   width: 100%;
 }
 
-.card1 header {
+.app1 header {
   padding: 20px;
 }
 
-.card1 p {
+.app1 p {
   text-align: center;
 }
 
-.card1 img {
+.app1 img {
   width: 100%;
 }
 
